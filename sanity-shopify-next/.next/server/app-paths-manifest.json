@@ -1,4 +1,6 @@
 {
-  "/page": "app/page.js",
-  "/ssn/[[...index]]/page": "app/ssn/[[...index]]/page.js"
+  "/not-found": "app/not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(user)/page": "app/(user)/page.js",
+  "/(admin)/ssn/[[...index]]/page": "app/(admin)/ssn/[[...index]]/page.js"
 }

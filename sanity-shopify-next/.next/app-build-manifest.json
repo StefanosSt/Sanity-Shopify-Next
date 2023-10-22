@@ -1,20 +1,30 @@
 {
   "pages": {
-    "/layout": [
+    "/(admin)/ssn/[[...index]]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/app/(admin)/ssn/[[...index]]/page.js"
     ],
-    "/page": [
+    "/(admin)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/(admin)/layout.js"
     ],
-    "/ssn/[[...index]]/page": [
+    "/(user)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/ssn/[[...index]]/page.js"
+      "static/chunks/app/(user)/page.js"
+    ],
+    "/(user)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(user)/layout.css",
+      "static/chunks/app/(user)/layout.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }
